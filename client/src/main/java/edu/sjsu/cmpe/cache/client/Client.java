@@ -40,7 +40,7 @@ public class Client {
         	dummyCache = consistentMap.get(i);
             dummyCache.put(i, str[i]);
             value = dummyCache.get(i);
-            System.out.println("get(i) => " + value);
+            System.out.println("get("+i+") => " + value);
         }
         
 
